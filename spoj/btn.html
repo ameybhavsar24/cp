@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.slide-social{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 10px 0px 0;
+    width: 131px;
+    height: 40px;
+      background: #2f4982;
+    cursor: pointer;
+}
+.slide-social:nth-child(2){
+	    background: #089dd6;
+}
+.slide-social .button{
+    position: absolute;
+    margin: 10px 0 0 47px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.slide-social:hover .slide{
+    -webkit-transform: translate(101%, 0);
+    -moz-transform: translate(101%, 0);
+    -ms-transform: translate(101%, 0);
+    -o-transform: translate(101%, 0);
+    transform: translate(101%, 0);
+}
+
+i.facebook{
+	background: url(../images/facebook.png) no-repeat 14px 12px;
+    display: block;
+    width: 34px;
+    height: 27px;
+}
+.facebook{
+    background: #3b5998;
+}
+
+.icon{
+    float: left;
+/*-- agileits --*/
+    padding-top:0px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.slide{
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.slide-social:hover .slide{
+    /*-webkit-transform: translate(101%, 0);
+    -moz-transform: translate(101%, 0);
+    -ms-transform: translate(101%, 0);
+    -o-transform: translate(101%, 0);
+    */transform: translate(100%, 0);
+}
+
+.slide{
+    /*-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    */transition: all 225ms ease-in-out;
+}
+
+.slide p{
+    position: relative;
+    top:10px;
+    margin: 0;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    color:#FFF !important;
+    text-align: center;
+}
+
+.clear{clear:both;}
+
+	</style>
+</head>
+<body>
+	
+	<div class="slide-social w3l">
+						<a href="#">
+							<div class="button">Hidden</div>
+							<div class="facebook icon"> <i class="facebook">☺</i> </div>
+							<div class="facebook slide">
+								<p>Public</p>
+							</div>
+							<div class="clear"></div>
+							</a>
+						</div>
+
+</body>
+</html>
