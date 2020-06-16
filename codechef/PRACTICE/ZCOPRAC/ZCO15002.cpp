@@ -1,6 +1,6 @@
 // ZCO15002.cpp
-#include "/home/amey/stdc++.h"
-// #include <bits/stdc++.h>
+
+ #include <bits/stdc++.h>
 using namespace std;
 
 typedef long long ll;
@@ -19,15 +19,26 @@ void solve() {
 		seq.pb(x);
 	}
 
-	ll pairs_i = 0;
-	rep(i,1,n) {	
-		rep(j,0,i) {	
-			if(abs(seq[j]-seq[i])>=k) {
-				pairs_i++;
-			}
-		}
-	}
-	cout << pairs_i;
+	sort(seq.begin(),seq.end());
+	//ll diff = 0;
+	//rep(i,0,n-1) {
+		//diff = max(diff, sqrt(pow(seq[i]-seq[i+1],2)));
+	//}
+	//cout << diff << "\n";
+	
+	//ll pairs_i = 0;
+	//rep(i,1,n) {	
+		//rep(j,0,i) {	
+			//if(sqrt(pow(seq[j]-seq[i],2))>=k) {
+				//pairs_i++;
+			//}
+		//}
+	//}
+	//cout << pairs_i;
+	
+	
+	
+	
 
 }
 

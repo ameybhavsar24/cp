@@ -1,0 +1,26 @@
+Pseudocode:
+
+t1 = {p,q,r}
+t2 = {a,b,c}
+ans = 3
+for d1 in range(-10,10)
+	for set x in non_empty_sets(t1):
+		add d1 to x
+		if (final_set == t2)
+			ans = min(ans,1)
+			
+		for d2 in range(-10,10):
+			for set z in non_empty_sets(x):
+				add d2 to z
+					if (final_set == t2)
+						ans = min(ans,2)
+print(ans)
+
+---
+Complexity:
+
+O(20*((2^3)-1)*
+
+
+		
+	
